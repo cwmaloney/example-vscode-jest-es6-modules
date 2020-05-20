@@ -1,0 +1,20 @@
+{
+  "type" : "module",
+  "name": "example-vscode-jest-es6-modules",
+  "version": "0.0.1",
+  "description": "Test modern Jest with ES6 Modules & Visual Studio Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-modules --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:clearcache": "jest --clear-cache"
+  },
+  "author": "Chris Maloney",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "engines": {
+    "node": ">= 12.16.3",
+    "npm": ">= 6.14.4"
+  }
+}
